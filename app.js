@@ -5,4 +5,4 @@ var logger=require('morgan');
 var bodyParser=require(body-parser);
 
 var app = express();
-app.set('views',path.resolve)
+app.set('views',path.resolve(__dirname,''))
